@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Header from './Components/Header/Header';
 import SideBar from './Components/SideBar/SideBar';
-import RecommendedVideos from './Components/RecommendedVideos/RecommendedVideos';
+import MainArea from './Components/MainArea/MainArea';
 import CommentForm from './Components/CommentForm/CommentForm';
 
 
@@ -13,7 +13,9 @@ function App() {
       <Header/>
       <div className="app__page">
         <SideBar/>
-        <RecommendedVideos/>
+        <MainArea/>
+      </div>
+      <div className="app__comments">
         <CommentForm />
       </div>
     </div>
