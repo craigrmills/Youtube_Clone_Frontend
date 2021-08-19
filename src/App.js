@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header';
+// import CommentForm from './Components/CommentForm/CommentForm';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       {/* <Sidebar/> */}
       {/* <RecommendedVideo/> */}
+      {/* <CommentForm /> */}
     </div>
   );
 }
