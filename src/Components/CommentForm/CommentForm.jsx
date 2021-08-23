@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import { Avatar, Grid, Paper } from "@material-ui/core";
+import TextField from '@material-ui/core/TextField';
 
 
 
@@ -16,7 +16,7 @@ function CommentForm() {
             </Grid>
             <Grid justifyContent="left" item xs zeroMinWidth>
                     <form>
-                    <TextareaAutosize maxRows={50} aria-label="maximum height" placeholder="Comment Here....."/>
+                    <TextField id="outlined-basic" size='normal' label="Comment Here...." variant="outlined" />
                     <br></br>
                         <Button color='yellow' type='submit'>Cancel</Button>
                         <Button positive type='submit'>Comment</Button>
