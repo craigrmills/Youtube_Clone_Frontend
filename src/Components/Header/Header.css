@@ -42,3 +42,7 @@
   flex: 1;
   border: none;
 }
+
+form {
+  display: flex;
+}
