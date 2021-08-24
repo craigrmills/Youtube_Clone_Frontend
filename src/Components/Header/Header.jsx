@@ -38,7 +38,7 @@ class Header extends Component {
                
                 <form className="header__input" onSubmit={this.handleSubmit}>
                     <input name="search" type="text" placeholder="Search" onChange={this.handleChange} />
-                    <SearchIcon className="header__inputButton"/>
+                    <SearchIcon className="header__inputButton" onClick="submit"/>
                 </form>                    
                 
                 <div className="header__icons">

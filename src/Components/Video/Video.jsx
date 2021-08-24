@@ -1,6 +1,5 @@
 import React from 'react';
 import './Video.css';
-import Avatar from '@material-ui/core/Avatar';
 
 const Video = ({ video, onVideoSelect }) => {
     if(!video) return <div></div>
